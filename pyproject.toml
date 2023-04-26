@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "numberstringtonumber"
+version = "0.1.0"
+description = "This converts the number string to number"
+authors = ["Alayappan <kamaleshalayappan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+word2number = "1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
